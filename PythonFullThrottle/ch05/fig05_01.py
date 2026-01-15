@@ -6,7 +6,7 @@ print('\nCreating a bar chart from numbers:')
 print(f'Index{"Value":>8}   Bar')
 
 for index, value in enumerate(numbers):
-    print(f'{index:>5}{value:>8}   {"*" * value}')
+    print(f'{index:>5}{value:>8}   {chr(0x2588) * value}')
 
 
 #**************************************************************************
